@@ -180,7 +180,6 @@ namespace CourseWork.Controllers
 
             return Ok();
         }
-
         private string GetCurrentUser() => User.Identity.Name;
     }
 }
